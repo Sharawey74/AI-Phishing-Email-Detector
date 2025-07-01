@@ -1,0 +1,87 @@
+2025-05-10 17:21:54,444 - INFO - Training model using dataset: phishing_email.csv
+2025-05-10 17:21:55,641 - ERROR - Error during model training: Dataset must contain columns: ['Subject', 'Body', 'Label']
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\main.py", line 51, in train_model
+    performance = model.train(args.dataset, model_save_path=args.model)
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 54, in train
+    self.dataset = self.preprocess_data(self.dataset)
+                   ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 34, in preprocess_data
+    raise ValueError(f"Dataset must contain columns: {required_cols}")
+ValueError: Dataset must contain columns: ['Subject', 'Body', 'Label']
+2025-05-10 17:36:58,775 - INFO - Training model using dataset: phishing_email.csv
+2025-05-10 17:41:12,733 - ERROR - Error during model training: Cannot save untrained model
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\main.py", line 51, in train_model
+    performance = model.train(args.dataset, model_save_path=args.model)
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 194, in train
+    self.save_model(model_save_path)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 246, in save_model
+    raise ValueError("Cannot save untrained model")
+ValueError: Cannot save untrained model
+2025-05-10 18:16:28,479 - __main__ - INFO - Training model using dataset: phishing_email.csv
+2025-05-10 18:16:28,480 - phishing_model - INFO - Loading dataset from phishing_email.csv
+2025-05-10 18:16:29,220 - phishing_model - INFO - Loaded dataset with 82486 rows and 2 columns
+2025-05-10 18:16:29,221 - phishing_model - INFO - Dataset columns: text_combined, label
+2025-05-10 18:16:29,223 - phishing_model - INFO - Using 'text_combined' column as combined_text
+2025-05-10 18:16:29,224 - phishing_model - INFO - Renamed 'label' to 'Label'
+2025-05-10 18:16:29,224 - phishing_model - INFO - Processed dataset: 82486 rows with combined_text and Label columns
+2025-05-10 18:16:29,234 - phishing_model - INFO - Label distribution: {1: 42891, 0: 39595}
+2025-05-10 18:16:29,254 - phishing_model - INFO - Training set size: 65988, Test set size: 16498
+2025-05-10 18:16:29,255 - phishing_model - INFO - Training model...
+2025-05-10 18:19:07,352 - phishing_model - INFO - Evaluating model...
+2025-05-10 18:19:10,883 - phishing_model - INFO - 
+Model Performance:
+2025-05-10 18:19:10,889 - phishing_model - INFO -               precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      7919
+           1       0.99      0.99      0.99      8579
+
+    accuracy                           0.99     16498
+   macro avg       0.99      0.99      0.99     16498
+weighted avg       0.99      0.99      0.99     16498
+
+2025-05-10 18:19:11,117 - phishing_model - INFO - Saved confusion matrix visualization to models/phishing_model_cm.png
+2025-05-10 18:19:11,133 - phishing_model - ERROR - Cannot save untrained model
+2025-05-10 18:19:11,134 - __main__ - ERROR - Error during model training: Cannot save untrained model
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\main.py", line 58, in train_model
+    performance = model.train(args.dataset, model_save_path=args.model)
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 236, in train
+    self.save_model(model_save_path)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 304, in save_model
+    raise ValueError(error_msg)
+ValueError: Cannot save untrained model
+2025-05-10 18:22:03,053 - __main__ - INFO - Training model using dataset: phishing_email.csv
+2025-05-10 18:22:03,053 - phishing_model - INFO - Loading dataset from phishing_email.csv
+2025-05-10 18:22:03,953 - phishing_model - INFO - Loaded dataset with 82486 rows and 2 columns
+2025-05-10 18:22:03,954 - phishing_model - INFO - Dataset columns: text_combined, label
+2025-05-10 18:22:03,956 - phishing_model - INFO - Using 'text_combined' column as combined_text
+2025-05-10 18:22:03,957 - phishing_model - INFO - Renamed 'label' to 'Label'
+2025-05-10 18:22:03,957 - phishing_model - INFO - Processed dataset: 82486 rows with combined_text and Label columns
+2025-05-10 18:22:03,960 - phishing_model - INFO - Label distribution: {1: 42891, 0: 39595}
+2025-05-10 18:22:03,985 - phishing_model - INFO - Training set size: 65988, Test set size: 16498
+2025-05-10 18:22:03,986 - phishing_model - INFO - Training model...
+2025-05-10 18:25:56,317 - phishing_model - INFO - Evaluating model...
+2025-05-10 18:26:00,417 - phishing_model - INFO - 
+Model Performance:
+2025-05-10 18:26:00,425 - phishing_model - INFO -               precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      7919
+           1       0.99      0.99      0.99      8579
+
+    accuracy                           0.99     16498
+   macro avg       0.99      0.99      0.99     16498
+weighted avg       0.99      0.99      0.99     16498
+
+2025-05-10 18:26:00,745 - phishing_model - INFO - Saved confusion matrix visualization to models/phishing_model_cm.png
+2025-05-10 18:26:00,997 - phishing_model - INFO - Model saved to models/phishing_model.pkl
+2025-05-10 18:26:01,000 - __main__ - INFO - Model training completed in 0:03:57.946697
+2025-05-10 18:26:01,000 - __main__ - INFO - Model saved to models/phishing_model.pkl
+2025-05-10 18:26:01,000 - __main__ - INFO - 
+Model Performance Metrics:
+2025-05-10 18:26:01,000 - __main__ - INFO - Accuracy: 0.99
+2025-05-10 18:26:01,001 - __main__ - INFO - Precision: 0.99
+2025-05-10 18:26:01,001 - __main__ - INFO - Recall: 0.99

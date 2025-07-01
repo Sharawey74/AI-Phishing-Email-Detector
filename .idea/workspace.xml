@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dc77e6c-bf82-499d-b4bb-3eb115f7acfb" name="LIST" comment="LIST">
+      <change afterPath="$PROJECT_DIR$/.idea/PythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phishing_detector.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vjZqfptMXmzgq7ooRGTFGDrF5m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Cyber project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EncryptionApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OL74.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PhishingDetectorUI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PhishingEmailDetector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Phshing_Email_Detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ddd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.efef.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example_usage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kkk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multi_layer_encryption.executor&quot;: &quot;Run&quot;,
+    &quot;Python.p2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.phishing_detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.phishing_detector_complete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.phishing_detector_console.executor&quot;: &quot;Run&quot;,
+    &quot;Python.phising_detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yallabena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\PythonProject1" />
+      <recent name="C:\Users\DELL\PycharmProjects\PythonProject1\requirements\phishing_detector" />
+      <recent name="C:\Users\DELL\PycharmProjects\PythonProject1\Randoms" />
+      <recent name="C:\Users\DELL\PycharmProjects\PythonProject1\sss" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc77e6c-bf82-499d-b4bb-3eb115f7acfb" name="Changes" comment="" />
+      <created>1744660636215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744660636215</updated>
+      <workItem from="1744660637255" duration="691000" />
+      <workItem from="1744699225912" duration="525000" />
+      <workItem from="1744702056229" duration="1501000" />
+      <workItem from="1744703842409" duration="322000" />
+      <workItem from="1744704181728" duration="79000" />
+      <workItem from="1744704281092" duration="16000" />
+      <workItem from="1744758932059" duration="167000" />
+      <workItem from="1744759125808" duration="2615000" />
+      <workItem from="1744821488412" duration="3682000" />
+      <workItem from="1744825865731" duration="2448000" />
+      <workItem from="1744830612025" duration="421000" />
+      <workItem from="1744838466579" duration="3000" />
+      <workItem from="1744977104004" duration="7000" />
+      <workItem from="1745070220855" duration="287000" />
+      <workItem from="1745070623907" duration="479000" />
+      <workItem from="1745078813250" duration="3841000" />
+      <workItem from="1745096503938" duration="379000" />
+      <workItem from="1745126993672" duration="4165000" />
+      <workItem from="1745303969202" duration="149000" />
+      <workItem from="1745304402880" duration="171000" />
+      <workItem from="1745574145464" duration="6000" />
+      <workItem from="1745700180913" duration="589000" />
+      <workItem from="1745848724652" duration="2078000" />
+      <workItem from="1745863692696" duration="3354000" />
+      <workItem from="1745868395889" duration="68000" />
+      <workItem from="1745872338926" duration="799000" />
+      <workItem from="1745908430670" duration="62000" />
+      <workItem from="1745908711590" duration="969000" />
+      <workItem from="1745910070201" duration="548000" />
+      <workItem from="1745915144654" duration="707000" />
+      <workItem from="1745954126004" duration="531000" />
+      <workItem from="1746012423225" duration="22000" />
+      <workItem from="1746013192763" duration="299000" />
+      <workItem from="1746026948484" duration="2241000" />
+      <workItem from="1746035278813" duration="2679000" />
+      <workItem from="1746038116915" duration="7000" />
+      <workItem from="1746038187507" duration="1856000" />
+      <workItem from="1746041304648" duration="1775000" />
+      <workItem from="1746043406043" duration="2088000" />
+      <workItem from="1746201958734" duration="622000" />
+      <workItem from="1746205206808" duration="2388000" />
+      <workItem from="1746211698711" duration="5259000" />
+      <workItem from="1746293676008" duration="1377000" />
+      <workItem from="1746304788569" duration="904000" />
+      <workItem from="1746305743360" duration="1674000" />
+      <workItem from="1746347035668" duration="191000" />
+      <workItem from="1746358267207" duration="495000" />
+      <workItem from="1746469661846" duration="2858000" />
+      <workItem from="1746473812848" duration="986000" />
+      <workItem from="1746475020886" duration="3240000" />
+      <workItem from="1746516160956" duration="596000" />
+      <workItem from="1746704733942" duration="191000" />
+      <workItem from="1746746795775" duration="2443000" />
+      <workItem from="1746802986750" duration="3751000" />
+      <workItem from="1746882901946" duration="10877000" />
+      <workItem from="1746965577186" duration="936000" />
+      <workItem from="1747227709014" duration="1656000" />
+      <workItem from="1747231045011" duration="3440000" />
+      <workItem from="1747235004040" duration="2427000" />
+      <workItem from="1747237546665" duration="297000" />
+      <workItem from="1747237856915" duration="23975000" />
+      <workItem from="1747294565541" duration="4082000" />
+      <workItem from="1747303801311" duration="2018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/EncryptionApp.py</url>
+          <line>405</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/PhishingEmailDetector.py</url>
+          <line>421</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/PhishingEmailDetector.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/PhishingDetectorUI.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/PhishingEmailDetector.py</url>
+          <line>182</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/PhishingEmailDetector.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Randoms/PhishingEmailDetector.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject1$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1745080820008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$PhishingEmailDetector.coverage" NAME="PhishingEmailDetector Coverage Results" MODIFIED="1746476437959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$kkk.coverage" NAME="kkk Coverage Results" MODIFIED="1746013368741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$phishing_detector_complete.coverage" NAME="phishing_detector_complete Coverage Results" MODIFIED="1747246082211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requirements" />
+    <SUITE FILE_PATH="coverage/PythonProject1$OL74.coverage" NAME="OL74 Coverage Results" MODIFIED="1744821508794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$multi_layer_encryption.coverage" NAME="multi_layer_encryption Coverage Results" MODIFIED="1745070821228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$example_usage.coverage" NAME="example_usage Coverage Results" MODIFIED="1747251267772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Phshing_Email_Detector.coverage" NAME="Phshing_Email_Detector Coverage Results" MODIFIED="1747254968037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$phising_detector.coverage" NAME="phising_detector Coverage Results" MODIFIED="1747236904269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requirements" />
+    <SUITE FILE_PATH="coverage/PythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1746887970860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$SS.coverage" NAME="SS Coverage Results" MODIFIED="1745082327606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$PhishingDetectorUI.coverage" NAME="PhishingDetectorUI Coverage Results" MODIFIED="1746704772116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$efef.coverage" NAME="efef Coverage Results" MODIFIED="1746747130935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$phishing_detector_console.coverage" NAME="phishing_detector_console Coverage Results" MODIFIED="1747245502649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logs" />
+    <SUITE FILE_PATH="coverage/PythonProject1$run_detector.coverage" NAME="run_detector Coverage Results" MODIFIED="1747249345661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$EncryptionApp.coverage" NAME="EncryptionApp Coverage Results" MODIFIED="1745700469365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$app.coverage" NAME="app Coverage Results" MODIFIED="1746474121021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requirements" />
+    <SUITE FILE_PATH="coverage/PythonProject1$phishing_detector.coverage" NAME="phishing_detector Coverage Results" MODIFIED="1747305768568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Cyber_project.coverage" NAME="Cyber project Coverage Results" MODIFIED="1745128700960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$yes.coverage" NAME="yes Coverage Results" MODIFIED="1746305876247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$yallabena.coverage" NAME="yallabena Coverage Results" MODIFIED="1746044870817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$p2.coverage" NAME="p2 Coverage Results" MODIFIED="1745128696743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

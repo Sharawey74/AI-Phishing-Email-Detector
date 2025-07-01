@@ -1,0 +1,14 @@
+{
+  "model_type": "Random Forest Classifier",
+  "version": "1.0.0",
+  "last_updated": "2025-05-15 13:42:52",
+  "features_used": 10,
+  "training_data_size": 43868,
+  "dataset_files": [
+    "CEAS_08.csv",
+    "Nigerian_Fraud.csv",
+    "Nazario.csv"
+  ],
+  "accuracy": "N/A (no validation performed)",
+  "created_by": "\u0648\u0632\u064a\u0631 \u0627\u0644\u0634\u0628\u0627\u0628 \u0648\u0627\u0644\u0631\u064a\u0627\u0636\u0629 \u0627\u0644\u0628\u0634\u0645\u0647\u0646\u062f\u0633 \u0648 \u062f\u0643\u062a\u0648\u0631 \u0627\u0644\u0642\u0633\u0645 \u0645\u0633\u062a\u0642\u0628\u0644\u0627 (\u0631\u0627\u0645\u064a \u0639\u0628\u064a\u062f) "
+}

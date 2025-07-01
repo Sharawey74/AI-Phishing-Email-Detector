@@ -1,0 +1,129 @@
+2025-05-10 17:52:54,066 - INFO - No trained model found, starting with untrained model
+2025-05-10 17:52:54,089 - INFO - Application started by user: DELL
+2025-05-10 17:53:44,849 - INFO - Selected email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 17:53:56,444 - INFO - Attempting to load model from: C:/Users/DELL/Downloads/phishing_detection_model.pkl
+2025-05-10 17:53:56,446 - ERROR - Failed to load model from: C:/Users/DELL/Downloads/phishing_detection_model.pkl
+2025-05-10 17:56:40,890 - INFO - Application closing
+2025-05-10 18:41:30,890 - INFO - Attempting to load model from models\phishing_model.pkl
+2025-05-10 18:41:31,123 - INFO - Model loaded successfully from models\phishing_model.pkl
+2025-05-10 18:41:31,123 - INFO - Model loaded successfully from models\phishing_model.pkl
+2025-05-10 18:41:31,156 - INFO - Application started by user: DELL
+2025-05-10 18:45:13,827 - INFO - Starting email analysis
+2025-05-10 18:45:13,828 - INFO - Parsing raw email text
+2025-05-10 18:45:13,835 - INFO - Extracting features from email
+2025-05-10 18:45:13,836 - INFO - Making prediction
+2025-05-10 18:45:13,858 - INFO - Prediction: 0, Probability: 0.4100
+2025-05-10 18:45:13,902 - ERROR - Error making prediction: 'NoneType' object has no attribute 'get_feature_names_out'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 277, in predict
+    feature_names = self.tfidf_vectorizer.get_feature_names_out()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_feature_names_out'
+2025-05-10 18:45:13,905 - ERROR - Error during email analysis: 'NoneType' object has no attribute 'get_feature_names_out'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\gui.py", line 874, in analyze_thread
+    prediction = self.model.predict(features, combined_text)
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 277, in predict
+    feature_names = self.tfidf_vectorizer.get_feature_names_out()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_feature_names_out'
+2025-05-10 18:45:25,441 - INFO - Selected email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 18:45:26,493 - INFO - Starting email analysis
+2025-05-10 18:45:26,493 - INFO - Parsing email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 18:45:26,514 - INFO - Extracting features from email
+2025-05-10 18:45:32,759 - INFO - Making prediction
+2025-05-10 18:45:32,771 - INFO - Prediction: 1, Probability: 0.6500
+2025-05-10 18:45:32,796 - ERROR - Error making prediction: 'NoneType' object has no attribute 'get_feature_names_out'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 277, in predict
+    feature_names = self.tfidf_vectorizer.get_feature_names_out()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_feature_names_out'
+2025-05-10 18:45:32,797 - ERROR - Error during email analysis: 'NoneType' object has no attribute 'get_feature_names_out'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\gui.py", line 874, in analyze_thread
+    prediction = self.model.predict(features, combined_text)
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 277, in predict
+    feature_names = self.tfidf_vectorizer.get_feature_names_out()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_feature_names_out'
+2025-05-10 18:48:36,818 - INFO - Application closing
+2025-05-10 18:51:11,789 - INFO - Attempting to load model from models\phishing_model.pkl
+2025-05-10 18:51:11,957 - INFO - Model loaded successfully from models\phishing_model.pkl
+2025-05-10 18:51:11,957 - INFO - Model loaded successfully from models\phishing_model.pkl
+2025-05-10 18:51:11,985 - INFO - Application started by user: DELL
+2025-05-10 18:52:13,998 - INFO - Loading dataset from C:/Users/DELL/Desktop/DataSet/phishing_email.csv
+2025-05-10 18:52:14,798 - INFO - Loaded dataset with 82486 rows and 2 columns
+2025-05-10 18:52:14,801 - INFO - Dataset columns: text_combined, label
+2025-05-10 18:52:14,804 - INFO - Using 'text_combined' column as combined_text
+2025-05-10 18:52:14,813 - INFO - Renamed 'label' to 'Label'
+2025-05-10 18:52:14,814 - INFO - Processed dataset: 82486 rows with combined_text and Label columns
+2025-05-10 18:52:14,821 - INFO - Label distribution: {1: 42891, 0: 39595}
+2025-05-10 18:52:14,852 - INFO - Training set size: 65988, Test set size: 16498
+2025-05-10 18:52:14,860 - INFO - Training model...
+2025-05-10 18:55:40,202 - INFO - Evaluating model...
+2025-05-10 18:55:46,345 - INFO - 
+Model Performance:
+2025-05-10 18:55:46,355 - INFO -               precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      7919
+           1       0.99      0.99      0.99      8579
+
+    accuracy                           0.99     16498
+   macro avg       0.99      0.99      0.99     16498
+weighted avg       0.99      0.99      0.99     16498
+
+2025-05-10 18:55:46,722 - INFO - Saved confusion matrix visualization to models\phishing_model_20250510_185213_cm.png
+2025-05-10 18:55:46,995 - INFO - Model saved to models\phishing_model_20250510_185213.pkl
+2025-05-10 18:55:47,000 - INFO - Model training completed successfully. Saved to models\phishing_model_20250510_185213.pkl
+2025-05-10 18:56:03,472 - INFO - Selected email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 18:56:05,395 - INFO - Starting email analysis
+2025-05-10 18:56:05,395 - INFO - Parsing email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 18:56:05,406 - INFO - Extracting features from email
+2025-05-10 18:56:11,695 - INFO - Making prediction
+2025-05-10 18:56:11,708 - INFO - Prediction: 1, Probability: 0.6500
+2025-05-10 18:56:11,742 - INFO - Analyzing 8 URLs
+2025-05-10 18:56:17,264 - INFO - Generating analysis report
+2025-05-10 18:56:17,271 - ERROR - Error during email analysis: PhishingReportGenerator.generate_report() got multiple values for argument 'output_format'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\gui.py", line 886, in analyze_thread
+    self.last_report_path = self.report_generator.generate_report(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        email_data,
+        ^^^^^^^^^^^
+    ...<2 lines>...
+        output_format='html'
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: PhishingReportGenerator.generate_report() got multiple values for argument 'output_format'
+2025-05-10 18:57:28,722 - INFO - Application closing
+2025-05-10 19:06:03,534 - INFO - Attempting to load model from models\phishing_model.pkl
+2025-05-10 19:06:03,745 - INFO - Model loaded successfully from models\phishing_model.pkl
+2025-05-10 19:06:03,746 - INFO - Model loaded successfully from models\phishing_model.pkl
+2025-05-10 19:06:03,777 - INFO - Application started by user: DELL
+2025-05-10 19:06:13,207 - INFO - Attempting to load model from: C:/Users/DELL/PycharmProjects/PythonProject1/models/phishing_model_20250510_185213.pkl
+2025-05-10 19:06:13,234 - INFO - Attempting to load model from C:/Users/DELL/PycharmProjects/PythonProject1/models/phishing_model_20250510_185213.pkl
+2025-05-10 19:06:13,395 - INFO - Model loaded successfully from C:/Users/DELL/PycharmProjects/PythonProject1/models/phishing_model_20250510_185213.pkl
+2025-05-10 19:06:13,396 - INFO - Model loaded successfully from: C:/Users/DELL/PycharmProjects/PythonProject1/models/phishing_model_20250510_185213.pkl
+2025-05-10 19:06:20,081 - INFO - Selected email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 19:06:21,100 - INFO - Starting email analysis
+2025-05-10 19:06:21,101 - INFO - Parsing email file: C:/Users/DELL/Downloads/Security alert_ new or unusual X login.eml
+2025-05-10 19:06:21,110 - INFO - Extracting features from email
+2025-05-10 19:06:27,578 - INFO - Making prediction
+2025-05-10 19:06:27,589 - INFO - Prediction: 1, Probability: 0.6500
+2025-05-10 19:06:27,616 - ERROR - Error making prediction: 'NoneType' object has no attribute 'get_feature_names_out'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 277, in predict
+    feature_names = self.tfidf_vectorizer.get_feature_names_out()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_feature_names_out'
+2025-05-10 19:06:27,618 - ERROR - Error during email analysis: 'NoneType' object has no attribute 'get_feature_names_out'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\gui.py", line 874, in analyze_thread
+    prediction = self.model.predict(features, combined_text)
+  File "C:\Users\DELL\PycharmProjects\PythonProject1\phishing_model.py", line 277, in predict
+    feature_names = self.tfidf_vectorizer.get_feature_names_out()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_feature_names_out'
+2025-05-10 19:06:34,865 - INFO - Application closing

@@ -1,0 +1,1 @@
+{"model_type": "Random Forest Classifier", "version": "1.0.0", "last_updated": "2025-05-14 14:06:20", "features_used": 28, "training_data_size": "125,000 emails", "accuracy": 94.7, "precision": 96.2, "recall": 92.1, "f1_score": 94.1}
